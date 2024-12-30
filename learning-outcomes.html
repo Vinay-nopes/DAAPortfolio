@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Reflections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        .headd {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color: rgb(26, 26, 13);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.6);
+        }
+        .back {
+            display: inline-block;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            color: aliceblue;
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 0 20px;
+            margin: 20px;
+            text-decoration: none;
+        }
+        .back:hover {
+            box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.6);
+            color: black;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+        .hd {
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(246, 255, 127);
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .ans {
+            padding: 20px;
+            background-color: #e8f5e9;
+            font-weight: bold;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            padding-left: 40px;
+            list-style-type: disc;
+            margin-top: 10px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        pre {
+            background-color: lightblue;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            overflow: auto;
+            margin: 20px 0;
+        }
+        h3 {
+            background-color: lightblue;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        p {
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="detailedpage.html" class="back">Back</a>
+
+    <h1 class="headd">
+        COURSE LEARNING REFLECTIONS
+    </h1>
+
+    <!-- Section 1 -->
+    <h2 class="hd">1. Kinds of Problems We See in Nature</h2>
+    <div class="ans">
+        <h3>1. Recursion</h3>
+        <ul>
+            <li>Recursion is when a process solves a problem by breaking it into simpler, similar sub-problems. In nature, it appears in growth, patterns, and structures.</li>
+        </ul>
+        <p><strong>Example:</strong> Divide and conquer, Tower of Hanoi, etc.</p>
+
+        <h3>2. Iterations</h3>
+        <ul>
+            <li>They are the repetition of patterns, applicable to various scenarios.</li>
+        </ul>
+        <p><strong>Example:</strong> Earth's day-night cycle, seasonal cycles, etc.</p>
+
+        <h3>3. Backtracking</h3>
+        <ul>
+            <li>A method of finding solutions by exploring all paths and backtracking when necessary.</li>
+        </ul>
+        <p><strong>Example:</strong> Birds finding their way, roots searching for water.</p>
+    </div>
+
+    <!-- Section 2 -->
+    <h2 class="hd">2. What is Space and Time Efficiency? Why are they important?</h2>
+    <div class="ans">
+        <ul>
+            <li><strong>Time Efficiency:</strong> Measures the time required to execute an algorithm.</li>
+            <li><strong>Space Efficiency:</strong> Tracks memory usage during algorithm execution.</li>
+        </ul>
+        <p>
+            A good algorithm balances time and space efficiency, ensuring optimal resource usage for performance.
+        </p>
+        <pre>
+Complexity Classes and Orders of Growth:
+O(1) - Constant Time
+O(log n) - Logarithmic Time
+O(n) - Linear Time
+O(n log n) - Linearithmic Time
+O(n²) - Quadratic Time
+O(2ⁿ) - Exponential Time
+O(n!) - Factorial Time
+        </pre>
+    </div>
+
+    <!-- Section 3 -->
+    <h2 class="hd">3. Hierarchical Data and Tree Data Structures</h2>
+    <div class="ans">
+        <pre>
+<strong>Binary Search Tree (BST):</strong> Fast lookup, insertion, and deletion.
+<strong>AVL Tree:</strong> Balances BST by maintaining height difference.
+<strong>2-3 Tree:</strong> Ensures consistent height for efficiency.
+<strong>Red-Black Tree:</strong> Efficient balancing with fewer rotations.
+<strong>Heap:</strong> Finds smallest or largest element efficiently.
+<strong>Trie:</strong> Stores sequences like prefixes or dictionary data.
+        </pre>
+    </div>
+
+    <!-- Section 4 -->
+    <h2 class="hd">4. Array Query Algorithms</h2>
+    <div class="ans">
+        <pre>
+Binary Search: O(log n) - Finds data quickly in sorted arrays.
+Sliding Window: O(n) - Used in signal processing, network analysis.
+Two Pointer Technique: O(n) - Simplifies removing duplicates.
+Segment Tree: O(log n) - Handles range queries efficiently.
+        </pre>
+    </div>
+
+    <!-- Section 5 -->
+    <h2 class="hd">5. Difference Between Trees and Graphs</h2>
+    <div class="ans">
+        <pre>
+<strong>Trees:</strong> Acyclic, hierarchical, parent-child relationships.
+<strong>Graphs:</strong> Cyclic or acyclic, represent connections.
+        </pre>
+    </div>
+
+    <!-- Section 6 -->
+    <h2 class="hd">6. Takeaways from Design Principles</h2>
+    <div class="ans">
+        <pre>
+Sorting:
+Bubble Sort, Selection Sort - Simple, small datasets.
+Merge Sort, Quick Sort - Efficient, larger datasets.
+
+Graph Algorithms:
+Dijkstra's, Prim's - Find shortest paths and minimum spanning trees.
+        </pre>
+    </div>
+
+    <!-- Section 7 -->
+    <h2 class="hd">7. Sorting and Searching Algorithms</h2>
+    <div class="ans">
+        <pre>
+Quick Sort: Efficient, in-memory sorting.
+Heap Sort: Priority-based sorting.
+Binary Search: Divide and conquer method.
+        </pre>
+    </div>
+
+    <!-- Section 8 -->
+    <h2 class="hd">8. Importance of Graph Algorithms</h2>
+    <div class="ans">
+        <pre>
+Spanning Trees: Kruskal's, Prim's for minimum connections.
+Shortest Path: Dijkstra's, Bellman-Ford for navigation.
+        </pre>
+    </div>
+
+    <!-- Section 9 -->
+    <h2 class="hd">9. Algorithm Design Techniques</h2>
+    <div class="ans">
+        <pre>
+Brute Force: Guaranteed but slow.
+Dynamic Programming: Stores intermediate results for efficiency.
+Divide and Conquer: Splits problems into manageable subproblems.
+        </pre>
+    </div>
+
+    <!-- Section 10 -->
+    <h2 class="hd">10. Determining Efficient Solutions</h2>
+    <div class="ans">
+        <pre>
+Understand the problem.
+Choose a suitable algorithm.
+Optimize based on constraints.
+        </pre>
+    </div>
+
+    <!--section-->
+    <h2 class="hd">BST CODE</h2>
+    <div class="ans">
+        <pre>
+BST IS BASICALLY A TREE DATA STRUCTURE IN WHICH WE HAVE  A PARENT NODE AND ATMAX TWO CHILD NODES, WE CALL IT BINAR TREE BECAUSE,
+AT MAX IT CAN HAVE ONLY TWO CHILD NODES, THERE ALSO EXIST TERNARY TRESS,ETC ALSO.
+
+
+
+
+            #include <bits/stdc++.h>
+            using namespace std;
+            struct tree
+            {
+                int data;
+                struct tree* left;
+                struct tree* right;
+            
+            };
+            typedef struct tree Tree;
+            class bst
+            {
+            public:
+                Tree *insert(Tree*,int);
+                void inorder(Tree*);
+                void preorder(Tree*);
+                void postorder(Tree*);
+                Tree *deletee(Tree*,int);
+            
+            };
+            //to insert into tree we want data
+            //and a duplicate to store and a pointer pointing to previous node
+            Tree* bst::insert(Tree* root,int data)
+            {
+                // we create a dynaloc for tree/root
+                Tree * newnode= new Tree;
+            
+                //now we take  the  data from user and assign left and right first to null to avoid any error in buffer
+            
+            
+                 newnode->data=data;
+                 newnode->left=NULL;
+                 newnode->right=NULL;
+            
+                 if(root==NULL)
+                 {
+                     root=newnode;
+                     cout<<"ROOT IS INSERTED INTO TREE\n";
+                     return root;
+            
+                 }
+                 //if not  then search to relevant place
+                 Tree* curnode=root;
+                 Tree* parent = NULL;
+                 while(curnode!=NULL)
+                 {
+                     parent=curnode;
+                     if(newnode->data<curnode->data)
+                        curnode=curnode->left;
+                     else
+                        curnode=curnode->right;
+                 }
+                 // HERE CURNODE WILL BE POINTING TO
+                 //NULL SO THATS WHY WE  MAINTAINED
+                 // ON PREV NODE I.E HERE PARENT
+            
+                 if(newnode->data<parent->data)
+                 {
+                     parent->left=newnode;
+                 }
+                 else
+                    parent->right=newnode;
+            
+                 cout<<"node inserted succesfuly!!"<<endl;
+                 return root;
+            
+            }
+            void bst::inorder(Tree* root)
+            {
+                if(root!=NULL)
+                {
+                    inorder(root->left);
+                    cout<<root->data<<"\t";
+                    inorder(root->right);
+                }
+                return;
+            }
+            void bst::preorder(Tree* root)
+            {
+                if(root!=NULL)
+                {
+                    cout<<root->data<<"\t";
+                    inorder(root->left);
+                    inorder(root->right);
+                }
+                return ;
+            }
+            void bst::postorder(Tree* root)
+            {
+                if(root!=NULL)
+                {
+                    inorder(root->left);
+                    inorder(root->right);
+                    cout<<root->data<<"\t";
+            
+                }
+                return;
+            }
+            Tree* bst::deletee(Tree* root, int data) {
+                Tree* curnode = root;
+                Tree* parent = NULL;
+            
+                // Check if the tree is empty
+                if (root == NULL) {
+                    cout << "NO TREE IS THERE TO CUT" << endl;
+                    return root;
+                }
+            
+                // Traverse the tree to find the node to delete
+                while (curnode != NULL && curnode->data != data) {
+                    parent = curnode;
+                    if (data < curnode->data) {
+                        curnode = curnode->left;
+                    } else {
+                        curnode = curnode->right;
+                    }
+                }
+            
+                // If the data is not found
+                if (curnode == NULL) {
+                    cout << "NO SUCH DATA FOUND!!.." << endl;
+                    return root;
+                }
+            
+                Tree* replacement = NULL;
+            
+                // Case 1: Node has no right child
+                if (curnode->right == NULL) {
+                    replacement = curnode->left;
+                }
+                // Case 2: Node has no left child
+                else if (curnode->left == NULL) {
+                    replacement = curnode->right;
+                }
+                // Case 3: Node has two children
+                else {
+                    Tree* successor = curnode->right;
+                    Tree* successorParent = curnode;
+            
+                    // Find in-order successor (smallest in right subtree)
+                    while (successor->left != NULL) {
+                        successorParent = successor;
+                        successor = successor->left;
+                    }
+            
+                    // Relink successor's right subtree to its parent
+                    if (successorParent != curnode) {
+                        successorParent->left = successor->right;
+                        successor->right = curnode->right;
+                    }
+            
+                    successor->left = curnode->left;
+                    replacement = successor;
+                }
+            
+                // Handle root deletion
+                if (parent == NULL) {
+                    delete curnode;
+                    return replacement;
+                }
+            
+                // Attach replacement to the parent
+                if (parent->left == curnode) {
+                    parent->left = replacement;
+                } else {
+                    parent->right = replacement;
+                }
+            
+                delete curnode;
+                return root;
+            }
+            
+            int main()
+            {
+                bst b;
+            Tree* root=NULL;
+            int data=0;
+            while(1)
+            {
+                cout<<"***********MENU***********"<<endl;
+                cout<<"1: FOR INSERTION"<<endl;
+                cout<<"2: FOR INORDER TRAV"<<endl;
+                cout<<"3: FOR PREORDER TRAV"<<endl;
+                cout<<"4: FOR OUTORDER TRAV"<<endl;
+                cout<<"5: FOR DELETING "<<endl;
+            
+            
+                cout<<"**************************"<<endl;
+                int choice=0;
+                cout<<" ENTER YOUR CHOICE"<<endl;
+                cin>>choice;
+            
+            switch(choice){
+            case 1:
+                cout<<"ENTER THE DATA "<<endl;
+                cin>>data;
+                root=b.insert(root,data);
+                cout<<endl;
+                cout<<endl;
+                break;
+            case 2:
+                b.inorder(root);
+                cout<<endl;
+                cout<<endl;
+                break;
+            case 3:
+                b.preorder(root);
+                cout<<endl;
+                cout<<endl;
+                break;
+            case 4:
+                b.postorder(root);
+                cout<<endl;
+                cout<<endl;
+                break;
+            
+            }
+            case 5:
+                cout<<"ENTER THE DATA TO DELETE\n"<<endl;
+                cin>>data;
+                root=b.deletee(root,data);
+                break;
+            
+            }
+            }
+            
+        </pre>
+    </div>
+
+    <h2 class="hd">BFS AND DFS</h2>
+    <div class="ans">
+        <pre>
+  DFS: MEANS DEPTH FIRST SEARCH BASICALLY IDEA IS TO GO INTO THE DEPTH OF TREE AND THEN BACKTRACK.
+
+     CODE:
+
+     &lt;#include &lt;iostream&gt;
+     using namespace std;
+     int v=5;
+     int m[10][10]={{0,1,1,0,0},{1,0,0,1,1},{1,0,0,0,1},{0,1,0,0,0},{0,1,1,0,0}};
+     int visited[10];
+     dfs(int m[10][10],int v, int source)
+     {
+         visited[source]=1;
+         for(int i-&gt;0; i&lt;v; i++)
+         {
+             if(m[source][i]==1&amp;&amp;visited[i]==0)
+             {
+                 cout&lt;&lt; i &lt;&lt;"\t";
+                 dfs(m,v,i);
+             }
+         }
+     }
+     int main()
+     {
+         int source=0;
+         cout&lt;&lt;"ENTER THE SOURCE \n";
+         cin&gt;&gt;source;
+
+         for(int i=0; i&lt;v; i++)
+             visited[i]=0;
+
+         cout&lt;&lt;"DFS IS\n";
+         cout&lt;&lt;source&lt;&lt;"\t";
+         dfs(m,v,source);
+         return 0;
+     }
+        
+
+        </pre>
+    </div>
+
+    <h2 class="hd">BFS</h2>
+    <div class="ans">
+        <pre>
+
+BFS : ITS AN TECHNIQUE IN WHICH WE GO LEVEL BY LEVEL INTO THE TREE AND NO BACKTRACKING EXIST HERE.
+
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Display BFS Code</title>
+            </head>
+            <body>
+                <pre>
+                    &lt;#include &lt;iostream&gt;
+                    &lt;#include &lt;queue&gt;
+                    using namespace std;
+            
+                    int v = 5; // Number of vertices
+                    int m[10][10] = {
+                        {0, 1, 1, 0, 0},
+                        {1, 0, 0, 1, 1},
+                        {1, 0, 0, 0, 1},
+                        {0, 1, 0, 0, 0},
+                        {0, 1, 1, 0, 0}
+                    };
+                    int visited[10] = {0};
+            
+                    void bfs(int m[10][10], int v, int source) {
+                        queue&lt;int&gt; q;
+                        q.push(source);
+                        visited[source] = 1;
+            
+                        while (!q.empty()) {
+                            int current = q.front();
+                            q.pop();
+                            cout &lt;&lt; current &lt;&lt; "\t";
+            
+                            for (int i = 0; i &lt; v; i++) {
+                                if (m[current][i] == 1 &amp;&amp; visited[i] == 0) {
+                                    q.push(i);
+                                    visited[i] = 1;
+                                }
+                            }
+                        }
+                    }
+            
+                    int main() {
+                        int source = 0;
+                        cout &lt;&lt; "ENTER THE SOURCE NODE: ";
+                        cin &gt;&gt; source;
+            
+                        for (int i = 0; i &lt; v; i++)
+                            visited[i] = 0;
+            
+                        cout &lt;&lt; "BFS IS: \n";
+                        bfs(m, v, source);
+                        return 0;
+                    }
+                </pre>
+            </body>
+            </html>
+            
+        </pre>
+    </div>
+
+
+    <!-- Section 10 -->
+    <h2 class="hd">DIJISTHRA</h2>
+    <div class="ans">
+        <pre>
+ITS AN TECHNIQUE IN WHICH TO FIND THE SHORTEST DISTANCE BETWEEN ANY POINTS AND VERY EFFCIENTLY:
+
+
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dijkstra Code</title>
+</head>
+<body>
+    <pre>
+        &lt;#include &lt;iostream&gt;
+        &lt;#include &lt;vector&gt;
+        &lt;#include &lt;queue&gt;
+        &lt;#include &lt;climits&gt;
+        using namespace std;
+
+        void dijkstra(int src, const vector&lt;vector&lt;pair&lt;int, int&gt;&gt;&gt;&amp; graph, vector&lt;int&gt;&amp; distances) {
+            int n = graph.size();
+            distances.assign(n, INT_MAX);
+            distances[src] = 0;
+            priority_queue&lt;pair&lt;int, int&gt;, vector&lt;pair&lt;int, int&gt;&gt;, greater&lt;&gt;&gt; pq;
+            pq.push({0, src});
+            while (!pq.empty()) {
+                auto [dist, u] = pq.top();
+                pq.pop();
+                if (dist &gt; distances[u]) continue;
+                for (const auto&amp; [v, weight] : graph[u]) {
+                    if (distances[u] + weight &lt; distances[v]) {
+                        distances[v] = distances[u] + weight;
+                        pq.push({distances[v], v});
+                    }
+                }
+            }
+        }
+
+        int main() {
+            int n = 5;
+            vector&lt;vector&lt;pair&lt;int, int&gt;&gt;&gt; graph(n);
+            graph[0].push_back({1, 2});
+            graph[0].push_back({3, 6});
+            graph[1].push_back({2, 3});
+            graph[1].push_back({3, 8});
+            graph[1].push_back({4, 5});
+            graph[2].push_back({4, 7});
+            graph[3].push_back({4, 9});
+
+            vector&lt;int&gt; distances;
+            dijkstra(0, graph, distances);
+
+            cout &lt;&lt; "Shortest distances from node 0:\n";
+            for (int i = 0; i &lt; n; ++i) {
+                cout &lt;&lt; "Node " &lt;&lt; i &lt;&lt; ": " &lt;&lt; distances[i] &lt;&lt; '\n';
+            }
+
+            return 0;
+        }
+    </pre>
+
+    <h2 class="hd">STRING SEARCH ALGORITHMS</h2>
+    <div class="ans">
+        <pre>
+WE LEARNT BFSS WITH   USING BRUTE  FORECE TECHNIQUE OF N<sup>2</sup>.
+WE LEARNT RABIN KARP ALGO USING HASHING TECHNIQUE   OF O(N.M).
+WE LEARNT KMP USING PI TABLE OR LPS TABLE           OF O(N.N)
+        </pre>
+    </div>
+
+
+</body>
+</html>
+
+  
+
+

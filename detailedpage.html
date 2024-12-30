@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Document</title>
+   
+    <style>
+        body {
+            background: linear-gradient(120deg, #6b74f16c, rgba(50, 205, 50, 0.444));
+        }
+
+        .s1, .s2, .s3, .s4 {
+            margin-top: 80px;
+            background-color: rgba(63, 213, 233, 0.688);
+            height: 175px;
+            width: 400px;
+            padding-top: 3px;
+            padding-bottom: 8px;
+            padding-left: 170px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.8);
+            transition: opacity 2s;
+        }
+
+        .s1:hover, .s2:hover, .s3:hover, .s4:hover {
+            opacity: 0.8;
+        }
+
+        .p {
+            background-color: rgba(50, 205, 50, 0.6);
+            height: 53px;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 15px;
+            box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Spacing between buttons */
+            flex-wrap: wrap; /* Allow wrapping for small screens */
+        }
+
+        .pi, .h, .vi, .s1b1, .s1b2, .s2b1, .s2b2, .s3b1, .s3b2, .s4b1, .s4b2,.bh {
+            font-weight: bold;
+            height: 25px;
+            border-radius: 5px;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: opacity 0.2s, background-color 0.2s, box-shadow 0.3s;
+        }
+
+        .pi:hover, .h:hover, .vi:hover, .s1b1:hover, .s1b2:hover, .s2b1:hover, .s2b2:hover, .s3b1:hover, .s3b2:hover, .s4b1:hover, .s4b2:hover,.bh:hover {
+            box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.6);
+            font-weight: bold;
+            color: black;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        .de {
+            color: black;
+            margin-top: 50px;
+            padding-top: 5px;
+            height: 50px;
+            background-color: rgba(72, 232, 72, 0.6);
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 2px 4px 15px rgba(51, 52, 50, 0.6);
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .s1, .s2, .s3, .s4 {
+                width: 90%; /* Adjust width for smaller screens */
+                padding-left: 10px; /* Reduce padding */
+                height: auto; /* Allow height to adjust */
+            }
+
+            .p {
+                flex-direction: column; /* Stack buttons vertically */
+                gap: 10px; /* Smaller gap */
+            }
+
+            .pi, .h, .vi {
+                width: 80%; /* Buttons take up more space on smaller screens */
+                margin: 0 auto; /* Center buttons */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .s1, .s2, .s3, .s4 {
+                width: 95%; /* Further adjust for very small screens */
+                padding-left: 5px;
+            }
+
+            .pi, .h, .vi {
+                width: 100%; /* Full-width buttons */
+            }
+
+            .de {
+                font-size: 14px; /* Reduce font size for smaller screens */
+                height: auto; /* Allow height adjustment */
+            }
+            .bh
+            {
+                margin-left: 50px;
+            }
+            .enddd
+            {
+               margin-left: 50px;
+                text-align: center;
+                color: #6b74f16c;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="p">
+
+        <a href="project_intro.html"><button class="pi">PROJECT SUMMARY</button> </a>
+       
+        <a href="homepage.html"> <button class="h">HOME</button> </a>
+
+
+          <a href="CITY PLAN.mp4"><button class="vi">CITY VIDEO</button></a>
+        
+    </div>   
+
+    <h1 class="de">
+        <strong>DETAILED ANALYSIS ON CASE STUDY BY EACH MEMBER</strong>
+    </h1>
+
+    <div class="s1">
+        <h4>NAME  : VINAY TALEKAR</h4>
+        <h4>ROLLNO: 252 </h4>
+        <h4>DOMAIN: BDSBDASVVA</h4>
+        <a href="learning-outcomes.html">
+            <button class="s1b1">LEARNING OUTCOMES</button>
+        </a>
+        
+        <a href="">
+            <button class="s1b2">DOMAIN</button>
+        </a>
+    </div>
+
+    <div class="s2">
+        <h4>NAME  : VINAY TALEKAR</h4>
+        <h4>ROLLNO: 252 </h4>
+        <h4>DOMAIN: BDSBDASVVA</h4>
+       
+        <a href="learning-outcomes.html"> <button class="s2b1">LEARNING OUTCOMES</button></a>
+        <a href="">
+            <button class="s2b2">DOMAIN</button>
+        </a>
+    </div>
+
+    <div class="s3">
+        <h4>NAME  : VINAY TALEKAR</h4>
+        <h4>ROLLNO: 252 </h4>
+        <h4>DOMAIN: BDSBDASVVA</h4>
+        <a href="learning-outcomes.html"> <button class="s3b1">LEARNING OUTCOMES</button></a>
+       
+        <a href="">
+            <button class="s3b2">DOMAIN</button>
+        </a>
+    </div>
+
+    <div class="s4">
+        <h4>NAME  : VINAY TALEKAR</h4>
+        <h4>ROLLNO: 252 </h4>
+        <h4>DOMAIN: BDSBDASVVA</h4>
+        <a href="learning-outcomes.html"><button class="s4b1">LEARNING OUTCOMES</button></a>
+        
+        <a href="">
+            <button class="s4b2">DOMAIN</button>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+           <a href="homepage.html">    <button  class="bh">BACK TO HOME</button> </a>    
+      
+
+      <footer  class="enddd">
+        <h6 >
+            "You can listen to what people say, sure. But you will be far more effective if you listen to what people do." ~ Seth Godin
+          </h6>
+
+      </footer>
+     
+</body>
+</html>
